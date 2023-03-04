@@ -22,7 +22,7 @@ export const GlobalStyle = createGlobalStyle`
     --primary-black: rgba(31, 31, 31, 1);
     --secondary-gray: rgba(81, 81, 81, 1);
     --green: rgba(1, 135, 98, 1);
-    --text-gray: rgba(31, 31, 31, 1)
+    --text-gray: rgba(31, 31, 31, 1);
     font-family: 'Nunito', sans-serif;
 
 
