@@ -2,6 +2,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+background-color: var(--bg-main-gray);
   padding: 1.6rem 0 0.8rem;
   margin: 0 1.6rem;
   display: flex;
@@ -9,9 +10,13 @@ export const Container = styled.div`
   height: 16rem;
   justify-content: space-between;
   
-  @media screen and (min-device-width : 520px) and (max-device-width : 800px){
+  @media(min-width : 520px) and (max-width : 1040px){
     padding: 3.2rem 0 0.8rem;
     margin: 0 3.2rem;   
+  }
+  @media(min-width : 1041px){
+    padding: 3.2rem 0 0.8rem;
+    margin: 0 6.4rem;   
   }
 
 `
@@ -32,7 +37,7 @@ export const NavContent = styled.nav`
            }
     }
 
-    @media screen and (min-device-width : 520px) and (max-device-width : 800px){
+    @media (min-width : 520px){
         ul{
             display: flex;
             flex-direction: row;

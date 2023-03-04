@@ -6,10 +6,16 @@ export const Container = styled.div`
  height: 7.8rem;
  padding: 0.8rem 1.6rem;
 
- @media screen and (min-device-width : 520px) and (max-device-width : 800px) {
+ @media(min-width:520px) and (max-width:1040px) {
 /* tablets */
   height: 6rem;
   padding: 0.8rem 3.2rem;
+ 
+}
+@media(min-width : 1041px){
+/* pc*/
+ 
+  padding: 0.8rem 6.4rem;
  
 }
 
@@ -35,7 +41,7 @@ export const HeaderContainer = styled.div`
         }
    }
 
-   @media screen and (min-device-width : 520px) and (max-device-width : 800px) {
+   @media(min-width : 520px){
    /* tablets */
     display: flex;
     flex-direction: row;
