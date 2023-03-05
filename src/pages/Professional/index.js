@@ -7,7 +7,7 @@ export function Professional(){
 
     return(
         <>
-        <Header/>
+        <Header typePage={"profissional"}/>
         <Container>
                  <Content>
                     <h1>Profissional</h1>
@@ -18,7 +18,7 @@ export function Professional(){
             </ContainerImg>
         
          </Container>
-        <Footer/>
+        <Footer typePage={"profissional"}/>
         </>
     )
 }
