@@ -11,8 +11,8 @@ import {User} from "../pages/User"
         <Routes>
 
             <Route index path="/" element={<Home/>} />
-            <Route path="/profissional"element={<Professional/>}/>
-            <Route path="/pessoa-usuaria"element={<User/>}/>
+            <Route path="/pessoa-usuaria" element={<User/>}/>
+            <Route path="/profissional" element={<Professional/>}/>
             <Route path="*" element={<p>error</p>}/>
             
         </Routes>

@@ -8,13 +8,6 @@ export const GlobalStyle = createGlobalStyle`
       box-sizing: border-box;
   }
  
-  button {
-    cursor: pointer;
-  }
-  [disabled] {
-    opacity: 0.6;
-    cursor: not-allowed;
-  }
   :root{
     font-size: 62.5%;
     --bg-main-gray: rgba(255, 255, 255, 1);

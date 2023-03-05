@@ -28,17 +28,31 @@ export const HeaderContainer = styled.div`
    align-items: center;
    justify-content: space-evenly;
 
+   img{
+    cursor: pointer;
+    transition: opacity 0.2s ease 0s;
+    &:hover{ opacity: 0.8;}
+   }
    nav ul{
     display: flex;
     gap: 1rem;
 
         li{
-            font-size: 1.4rem;
+          font-size: 1.4rem;
             font-weight: 700;
             list-style: none;
             color: var(--text-gray);
             transition: all 0.2s ease 0s;
+            cursor: pointer;
+            &:hover{
+              opacity: 0.5;
+            }
+            
         }
+        & .ativo{color: var(--green); transition: all 0.2s ease 0s;}
+       
+
+       
    }
 
    @media(min-width : 520px){
@@ -58,3 +72,18 @@ export const HeaderContainer = styled.div`
 }
   
 `
+
+const item = (prop) => {
+   
+  
+  if(prop === "home"){
+       return true
+    }
+    else if( prop === "pessoa-usuaria"){
+      return true
+    }
+    else if(prop ==="profissional"){
+      return true
+    }
+    
+}

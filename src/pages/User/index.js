@@ -7,7 +7,7 @@ export function User(){
 
     return(
         <>
-        <Header/>
+        <Header typePage={"pessoa-usuaria"}/>
         <Container>
                  <Content>
                     <h1>Pessoa Usuária</h1>
@@ -18,7 +18,7 @@ export function User(){
             </ContainerImg>
         
          </Container>
-        <Footer/>
+        <Footer typePage={"pessoa-usuaria"}/>
         </>
     )
 }

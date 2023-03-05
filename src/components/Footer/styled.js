@@ -2,6 +2,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+border-top: 1px solid var(--green);
 background-color: var(--bg-main-gray);
   padding: 1.6rem 0 0.8rem;
   margin: 0 1.6rem;
@@ -34,7 +35,12 @@ export const NavContent = styled.nav`
             list-style: none;
             color: var(--text-gray);
             transition: all 0.2s ease 0s;
+            cursor: pointer;
+            &:hover{
+              opacity: 0.5;
+            }
            }
+           & .ativo{font-weight: 700; transition: all 0.2s ease 0s;}
     }
 
     @media (min-width : 520px){
@@ -59,6 +65,8 @@ export const NavIcon = styled.nav`
         gap: 2rem;
         li{
             list-style: none;
+            cursor: pointer;
+            &:hover{ opacity: 0.8;};
         }
      }
      

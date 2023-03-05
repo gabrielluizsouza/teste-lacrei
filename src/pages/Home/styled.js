@@ -36,6 +36,7 @@ export const Content = styled.div`
     margin-top: 1.4rem;
     transition: all 0.2s ease 0s;
   }
+  
   @media(min-width : 520px) and (max-width : 1040px){
 
     h1{
@@ -58,6 +59,24 @@ export const Content = styled.div`
     }
     
   }
+`
+export const ContainerButton = styled.div`
+
+  height: 16rem;
+  display: flex;
+  padding-top: 4.8rem;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+
+  @media(min-width : 520px){
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
 `
 export const ContainerImg = styled.div`
     max-width: 55.5rem;
