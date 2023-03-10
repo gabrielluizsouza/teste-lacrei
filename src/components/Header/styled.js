@@ -73,17 +73,3 @@ export const HeaderContainer = styled.div`
   
 `
 
-const item = (prop) => {
-   
-  
-  if(prop === "home"){
-       return true
-    }
-    else if( prop === "pessoa-usuaria"){
-      return true
-    }
-    else if(prop ==="profissional"){
-      return true
-    }
-    
-}
